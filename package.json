@@ -1,0 +1,30 @@
+{
+  "name": "my-remix-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "PORT=8000 remix dev",
+    "build": "remix build",
+    "start": "remix-serve build/server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@remix-run/node": "^2.15.3",
+    "@remix-run/react": "^2.15.3",
+    "@remix-run/serve": "^2.15.3",
+    "isbot": "^4.4.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^2.15.3",
+    "vite": "^5.4.14"
+  },
+
+  "type": "module"
+
+}
